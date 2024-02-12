@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  /* background-color: plum; */
+}
+
+.container{
+    width: 500px;
+    /* height: 350px; */
+/* background-color: #fff; */
+border-radius: 4px;
+background-color: rgb(231, 156, 231);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2.4rem;
+
+}
+
+#stopWatch h1{
+ text-align: center;
+ font-size: 5rem;
+ margin-top:2rem ;
+} 
+
+
+#buttons img{
+  width: 50px;
+  margin: 0 1rem;
+  cursor: pointer;
+
+}
+#buttons{
+  text-align: center;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+
+}
+#buttons img:nth-child(2){
+  width: 70px;
+
+}
